@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeforces Tracker</title>
+    <link rel="stylesheet" href="styles/styles.css?v=3" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+
+  <body>
+    <div id="popup" class="popup hidden"></div>
+    <div class="container">
+      <header class="fade-in">
+        <h1 class="slide-up">Codeforces Stats Tracker</h1>
+        <p class="slide-up delay-1">
+          Analyze your strengths, weaknesses, and progress.
+        </p>
+      </header>
+
+      <section class="search fade-in delay-2">
+        <input
+          type="text"
+          id="handleInput"
+          placeholder="Enter your Codeforces handle..."
+        />
+        <button onclick="trackHandle()">Track</button>
+      </section>
+
+      <footer class="fade-in delay-3">
+        <p>Made by Harshit Sehrawat</p>
+        <div class="social-box">
+          <a href="https://github.com/harshit123sehrawat" target="_blank" aria-label="GitHub">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          </a>
+          <a href="https://codeforces.com/profile/harshitsherawat123" target="_blank" aria-label="Codeforces">
+            <img src="images/codeforceslogo.png" alt="Codeforces" />
+          </a>
+          <a href="https://www.linkedin.com/in/harshit-sehrawat-b596a1362/" target="_blank" aria-label="LinkedIn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/handle-manager.js"></script>
+  </body>
+</html>
